@@ -2,10 +2,12 @@
   "name": "neotools-cli",
   "version": "1.0.5",
   "description": "nodejs bootstrapper",
-  "main": "neotools-cli.js",
+  "main": "./bin/index.js",
+  "bin": {
+    "neotools": "./bin/index.js"
+  },
   "scripts": {
-    "test": "echo \"no test specified\"",
-    "neotools": "node neotools-cli.js"
+    "test": "echo \"no test specified\""
   },
   "author": "kronnosxd",
   "license": "ISC"
