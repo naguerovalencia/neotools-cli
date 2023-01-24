@@ -1,6 +1,6 @@
 {
   "name": "neotools-cli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "nodejs bootstrapper",
   "main": "neotools-cli.js",
   "scripts": {
