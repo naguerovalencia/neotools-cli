@@ -4,7 +4,8 @@
   "description": "nodejs bootstrapper",
   "main": "neotools-cli.js",
   "scripts": {
-    "test": "echo \"no test specified\""
+    "test": "echo \"no test specified\"",
+    "neotools": "node neotools-cli.js"
   },
   "author": "kronnosxd",
   "license": "ISC"
