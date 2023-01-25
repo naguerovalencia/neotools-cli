@@ -7,7 +7,8 @@
     "neotools": "./bin/index.js"
   },
   "scripts": {
-    "test": "echo \"no test specified\""
+    "test": "echo \"no test specified\"",
+    "postinstall": "node ./bin/postinstall.js"
   },
   "author": "kronnosxd",
   "license": "ISC"

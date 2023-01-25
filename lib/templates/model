@@ -1,0 +1,18 @@
+`const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
+
+const {{name}} = Schema({
+    meta: {
+        created: {
+            type: Date,
+            default: Date.now
+        }
+    },
+    deleted: {
+        type: Boolean,
+        default: false
+    }
+    // Add fields here
+})
+module.exports = mongoose.model('{{name}}', {{name}});
+`
