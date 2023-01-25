@@ -15,12 +15,17 @@ You can install neotools-cli with npm as follows:
     
 ## Usage/Examples
 
- You can start a new project with the command 'neotools start', and it will start creating the structure and adding tools to your new project.
-You can also generate models, controllers and routes with the command
+You can start a new project with the command:
+```
+  neotools start
+``` 
+and it will start creating the structure and adding tools to your new project.
+
+You can also generate models, controllers and routes with the command:
   ```bash
   neotools --generate || neotools --g 
 ```
-For example, if you want to generate a model, you can use the command
+For example, if you want to generate a model, you can use the command:
  ```bash
   neotools --generate model || neotools -g m
 ```
