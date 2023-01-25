@@ -5,15 +5,4 @@ console.log(`
     https://github.com/naguerovalencia/neotools-cli
 
     For more help, use the command 'neotools --help' or 'neotools -h'
-
-
-         )  (
-        (   ) )
-         ) ( (
-       _______)_      
-    .-'---------|  
-   ( C|/\\/\\/\\/\\/|        ¡Happy Cøding 😊!
-    '-./\\/\\/\\/\\/|
-      '_________'
-       '-------'
 `) 

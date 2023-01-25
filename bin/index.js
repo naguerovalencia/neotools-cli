@@ -62,8 +62,15 @@ else if (args[0] == '--generate' || args[0] == '-g') {
 else if (args[0] == '--help' || args[0] == '-h') {
     let package = require('../package.json');
     console.log(`
-    NeøTools v${package.version}
-    author: naguerodev@gmail.com
+         )  (           
+        (   ) )         Greetings, I'm NeøTools v${package.version}, a CLI tool to help you
+         ) ( (          with your NodeJS projects 😊.
+       _______)_        Thanks for using me, I hope you enjoy it.
+    .-'---------|       You can find more information about me in my GitHub repository:
+   ( C| ¡Happy  |       https://github.com/naguerovalencia/neotools-cli
+    '-. cøding! |
+      '_________'       author: naguerodev@gmail.com 
+       '-------'        
 
     Usage: neotools [command] [options]
 
